@@ -1,0 +1,15 @@
+/*	<576px col	*/
+/*	<576px col	*/
+
+/*	>=576px col-sm	*/
+/*	>=576px col-sm	*/
+
+/*	>=768px col-md	*/
+@media(max-width: 768px)
+{
+	.responsive_nav
+	{
+		left: -260px;
+	}
+}
+/*	>=768px col-md	*/

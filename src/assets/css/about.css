@@ -1,0 +1,285 @@
+.content
+{
+	padding-left: 260px;
+}
+
+/*About Content*/
+.about-content
+{
+	padding-top: 120px;
+}
+
+.about_title
+{
+	margin-bottom: 60px;
+	font-family: Nunito,sans-serif;
+	position: relative;
+}
+
+.about_title h2
+{
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 15px;
+	font-size: 2.57rem;
+	line-height: 3.2857rem;
+	position: relative;
+}
+
+.about_title h2:before, .about_title h2:after
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	height: 5px;
+	border-radius: 100px;
+}
+
+.about_title h2:before
+{
+	width: 100px;
+	background: rgba(3,127,255,.3);
+}
+
+.about_title h2:after
+{
+	width: 35px;
+	background: #037fff;
+}
+
+.about_title span
+{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	font-size: 6rem;
+	line-height: 1;
+	font-weight: 900;
+	color: rgba(25,29,43,.44);
+	display: inline-block;
+	text-transform: uppercase;
+	z-index: -1;
+	-webkit-transform: translateY(-40%);
+	transform: translateY(-40%);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 4.5rem;
+}
+
+.about_image_div
+{
+	position: relative;
+}
+
+.about_image_div::before, .about_image_div::after
+{
+	content: "";
+	position: absolute;
+	height: 65%;
+	width: 15px;
+	background: rgba(3,127,255,.6);
+}
+
+.about_image_div::before
+{
+	left: 0;
+	top: 0;
+}
+
+.about_image_div::after
+{
+	left: auto;
+	right: 0;
+	top: auto;
+	bottom: 0;
+}
+
+.about_image_div img
+{
+	width: 100%;
+}
+
+.about_content_div
+{
+
+}
+
+.about_content_div h3
+{
+	font-size: 2rem;
+	line-height: 2.7rem;
+	font-weight: 600;
+	margin-top: -8px;
+	color: #fff;
+	font-family: Nunito,sans-serif;
+}
+
+.about_content_div h3 .name
+{
+	display: inline-block;
+	color: #037fff;
+}
+
+.about_content_div p
+{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	color: #a4acc4;
+	font-size: 18px;
+	line-height: 1.8rem
+}
+
+.about_content_div ul
+{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding-left: 0;
+}
+
+.about_content_div ul li
+{
+	list-style: none;
+	display: flex;
+	color: #a4acc4;
+	font-size: 18px;
+	line-height: 1.8rem;
+	font-family: Nunito,sans-serif;
+}
+
+.about_content_div ul li strong
+{
+	min-width: 120px;
+	display: inline-block;
+	position: relative;
+	margin-right: 7px;
+}
+
+.about_content_div ul li strong::after
+{
+	content: ":";
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 0;
+}
+
+.about_content_div a
+{
+	text-decoration: none;
+}
+
+.about_content_div .cv_bttn
+{
+	margin-top: 15px;
+	position: relative;
+	padding: 0 30px;
+	background: #037fff;
+	color: #fff;
+	border: 0;
+	display: inline-block;
+	z-index: 1;
+	text-transform: uppercase;
+	font-size: .9rem;
+	letter-spacing: 2px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.about_content_div .cv_bttn::before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #fff;
+	z-index: -1;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	transition: all .4s ease-out;
+}
+
+.about_content_div .cv_bttn:hover::before
+{
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+/*/About Content*/
+
+/*Service content*/
+.service-content
+{
+	padding-bottom: 120px;
+}
+
+.service-gap
+{
+	margin-top: 30px;
+}
+
+.my_service
+{
+	border: 1px solid #2e344e;
+	border-top: 5px solid #2e344e;
+	padding: 30px;
+	background: #191d2b;
+	padding: 20px;
+	-webkit-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+}
+
+.my_service:hover
+{
+	border-top-color: #037fff;
+}
+
+.my_service_icon
+{
+	margin-bottom: 20px;
+	display: inline-block;
+	color: #037fff;
+	font-size: 2.5rem
+}
+
+.my_service h5
+{
+	font-weight: 600;
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 1.43rem;
+	line-height: 2.14rem;
+	font-family: Nunito,sans-serif;
+	color: #fff;
+}
+
+.my_service h5:before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	height: 2px;
+	width: 50px;
+	background: #2e344e;
+}
+
+.my_service p
+{
+	margin-bottom: 0;
+	color: #fff;
+}
+/*/Service content*/

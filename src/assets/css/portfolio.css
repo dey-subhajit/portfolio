@@ -1,0 +1,262 @@
+.content
+{
+	padding-left: 260px;
+}
+
+/*portfolio content*/
+.portfolio-content
+{
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+
+.portfolio_title
+{
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.portfolio_title h2
+{
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 15px;
+	font-size: 2.57rem;
+	line-height: 3.2857rem;
+	position: relative;
+	font-family: 'Nunito', sans-serif;
+}
+
+.portfolio_title h2:before, .portfolio_title h2:after
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	height: 5px;
+	border-radius: 100px;
+}
+
+.portfolio_title h2:before
+{
+	width: 100px;
+	background: rgba(3,127,255,.3);
+}
+
+.portfolio_title h2:after
+{
+	width: 35px;
+	background: #037fff;
+}
+
+.portfolio_title span
+{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	font-size: 6rem;
+	line-height: 1;
+	font-weight: 900;
+	color: rgba(25,29,43,.44);
+	display: inline-block;
+	text-transform: uppercase;
+	z-index: -1;
+	-webkit-transform: translateY(-40%);
+	transform: translateY(-40%);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 4.5rem;
+}
+
+
+.portfolio_gap
+{
+	margin-top: 30px;
+}
+
+.portfolio_gap_hide
+{
+	margin-top: -30px;
+}
+
+.my_portfolio
+{
+	-webkit-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	visibility: visible;
+	opacity: 1;
+	/*visibility: hidden;*/
+	/*opacity: 0;*/
+}
+
+.my_portfolio_image
+{
+	display: block;
+position: relative;
+}
+
+.my_portfolio_image::before
+{
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	height: calc(100% - 30px);
+	width: calc(100% - 30px);
+	background: hsla(0,0%,100%,.9);
+	-webkit-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 0;
+	transform-origin: 0;
+}
+
+.my_portfolio:hover .my_portfolio_image::before
+{
+	transform: scaleX(1);
+}
+
+.my_portfolio_image img
+{
+	max-width: 100%;
+}
+
+.my_portfolio_image ul
+{
+	margin-bottom: 0;
+	padding-left: 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	visibility: hidden;
+	opacity: 0;
+	margin-top: 30px;
+	-webkit-transition: all .4s ease-in-out .2s;
+	transition: all .4s ease-in-out .2s;
+}
+
+.my_portfolio:hover .my_portfolio_image ul
+{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0;
+}
+
+.my_portfolio_image ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.my_portfolio_image ul li a
+{
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	padding: 9px 0;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1;
+	background: #a4acc4;
+	color: #fff;
+	border: 1px solid #a4acc4;
+	border-radius: 100px;
+	outline: none;
+	font-size: 1.25rem;
+	-webkit-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	cursor: url('../siteimage/cursor-hover.png'), auto;
+}
+
+.my_portfolio_image ul li a i
+{
+	font-size: 25px;
+}
+
+.my_portfolio_image ul li a:hover
+{	
+	background: #037fff;
+	border-color: #037fff;
+}
+
+.my_portfolio h5
+{
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 1.43rem;
+	line-height: 2.14rem;
+	font-family: 'Nunito', sans-serif;
+}
+
+.my_portfolio h6
+{
+	color: #a4acc4;
+	margin-bottom: 0;
+	font-size: 1.14rem;
+	line-height: 1.857rem;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*Portfolio pagenation*/
+.portfolio_page
+{
+
+}
+
+.page_gap
+{
+	margin-top: 50px;
+}
+
+.portfolio_page ul
+{
+	list-style: none;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
+.portfolio_page ul li
+{
+	display: inline-block;
+	list-style: none;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.portfolio_page ul li a
+{
+	display: inline-block;
+	border: 1px solid #037fff;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	color: #037fff;
+	line-height: 38px;
+	text-decoration: none;
+}
+
+.portfolio_page ul li.active a
+{
+	background: #037fff;
+	color: #fff;
+}
+
+.portfolio_page ul li a
+{
+	cursor: url('../siteimage/cursor-hover.png'), auto;
+}

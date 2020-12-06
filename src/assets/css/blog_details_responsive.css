@@ -1,0 +1,20 @@
+/*	<576px col	*/
+/*	<576px col	*/
+
+/*	>=576px col-sm	*/
+/*	>=576px col-sm	*/
+
+/*	>=768px col-md	*/
+@media(max-width: 768px)
+{
+	.content
+	{
+		padding-left: 0px;
+	}
+
+	.about_content_div
+	{
+		padding-top: 30px;
+	}
+}
+/*	>=768px col-md	*/

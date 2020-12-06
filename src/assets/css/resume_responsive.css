@@ -1,0 +1,27 @@
+/*	<576px col	*/
+/*	<576px col	*/
+
+/*	>=576px col-sm	*/
+@media(max-width: 576px)
+{
+	.my_resume
+	{
+		display: block;
+	}
+
+	.my_resume_details::before
+	{
+		width: 0px;
+	}
+}
+/*	>=576px col-sm	*/
+
+/*	>=768px col-md	*/
+@media(max-width: 768px)
+{
+	.content
+	{
+		padding-left: 0px;
+	}
+}
+/*	>=768px col-md	*/

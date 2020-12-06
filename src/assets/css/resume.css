@@ -1,0 +1,259 @@
+.content
+{
+	padding-left: 260px;
+}
+
+/*Skills content*/
+.skill-content
+{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.skill_title
+{
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.skill_title h2
+{
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 15px;
+	font-size: 2.57rem;
+	line-height: 3.2857rem;
+	position: relative;
+}
+
+.skill_title h2:before, .skill_title h2:after
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: auto;
+	bottom: 0;
+	height: 5px;
+	border-radius: 100px;
+}
+
+.skill_title h2:before
+{
+	width: 100px;
+	background: rgba(3,127,255,.3);
+}
+
+.skill_title h2:after
+{
+	width: 35px;
+	background: #037fff;
+}
+
+.skill_title span
+{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	font-size: 6rem;
+	line-height: 1;
+	font-weight: 900;
+	color: rgba(25,29,43,.44);
+	display: inline-block;
+	text-transform: uppercase;
+	z-index: -1;
+	-webkit-transform: translateY(-40%);
+	transform: translateY(-40%);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	font-size: 4.5rem;
+}
+
+.my_skill
+{
+	margin-top: -30px;
+}
+
+.skill_gap
+{
+	margin-top: 30px;
+}
+
+.my_progress_title
+{
+	font-weight: 600;
+	margin-bottom: 0;
+	font-size: 1.14rem;
+	line-height: 1.857rem;
+	font-family: Nunito,sans-serif;
+	color: #fff;
+}
+
+.progress
+{
+	background-color: #2e344e;
+	height: 15px;
+	width: 100%;
+}
+
+.progress-bar
+{
+	width: 0;
+	background-color: #037fff;
+	animation: progress 1.5s ease-in-out forwards;
+}
+
+.progress_value
+{
+	color: #fff;
+	font-weight: 700;
+	opacity: 0;
+    animation: show 1.5s forwards ease-in-out 0.5s;
+}
+
+@keyframes progress
+{
+  from
+  {
+    width: 0;
+  }
+  /*to
+  {
+    width: 100%;
+  }*/
+}
+
+@keyframes show 
+{
+	from
+	{
+		opacity: 0;
+	}
+
+	to
+	{
+		opacity: 1;
+	}
+}
+
+/*Resume*/
+.resume_content
+{
+	padding-top: 0;
+}
+
+.my_small_title
+{
+	display: flex;
+	align-items: center;
+}
+
+.my_small_title_icon
+{
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 1.71rem;
+	line-height: 2.43rem;
+	color: #a4acc4;
+}
+
+.my_small_title h4
+{
+	font-weight: 700;
+	font-size: 1.71rem;
+	line-height: 2.43rem;
+	font-family: Nunito,sans-serif;
+	color: #fff;
+}
+
+.my_resume_wrapper
+{
+	border-left: 3px solid #2e344e;
+}
+
+.my_resume
+{
+	display: flex;
+}
+
+.wrapper_gap
+{
+	margin-top: 30px;
+}
+
+.my_resume_summary
+{
+	align-self: flex-start;
+	flex: 0 0 220px;
+	max-width: 220px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.my_resume_summary::before
+{
+	content: "";
+	position: absolute;
+	left: -9px;
+	top: 6px;
+	height: 15px;
+	width: 15px;
+	border-radius: 100px;
+	background: #10121b;
+	border: 3px solid #2e344e;
+}
+
+.my_resume_year
+{
+	color: #a4acc4;
+	margin-bottom: 0;
+	font-size: 1.14rem;
+	line-height: 1.857rem;
+}
+
+.my_resume_details
+{
+	position: relative;
+	padding-left: 50px;
+}
+
+.my_resume_details::before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 15px;
+	height: 1px;
+	width: 30px;
+	background: #2e344e;
+}
+
+.my_resume_details h5
+{
+	color: #037fff;
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 1.43rem;
+	line-height: 2.14rem;
+	font-family: Nunito,sans-serif;
+}
+
+.my_resume_company
+{
+	color: #fff;
+	font-size: 1.14rem;
+	line-height: 1.857rem;
+	font-family: Nunito,sans-serif;
+}
+
+.my_resume_details p
+{
+	margin-bottom: 0;
+	color: #a4acc4;
+}
+/*/Resume*/

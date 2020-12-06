@@ -1,0 +1,15 @@
+/*	<576px col	*/
+/*	<576px col	*/
+
+/*	>=576px col-sm	*/
+/*	>=576px col-sm	*/
+
+/*	>=768px col-md	*/
+@media(max-width: 768px)
+{
+	.content
+	{
+		padding-left: 0px;
+	}
+}
+/*	>=768px col-md	*/
