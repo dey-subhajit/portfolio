@@ -1,0 +1,29 @@
+Index page background design
+
+https://www.geeksforgeeks.org/how-to-use-particles-js-in-react-project/
+
+npm install react-particles-js
+
+after that <Particles 
+        params={{ 
+          particles: { 
+            number: { 
+              value: 200, 
+              density: { 
+                enable: true, 
+                value_area: 1000, 
+              } 
+            }, 
+          }, 
+        }} 
+      /> 
+
+replace with my js script
+
+
+Routh setup
+
+npm install --save react-router react-router-dom
+
+npm install --save axios
+

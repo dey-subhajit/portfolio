@@ -1,0 +1,31 @@
+/*	<576px col	*/
+@media(min-width: 575px)
+{
+	.portfolio_title span
+	{
+		font-size: 50px;
+	}
+}
+/*	<576px col	*/
+
+/*	>=576px col-sm	*/
+@media (max-width: 576px)
+{
+	.portfolio_title span
+	{
+		/* font-size: 60px; */
+		width: 100%;
+		overflow: hidden;
+	}
+}
+/*	>=576px col-sm	*/
+
+/*	>=768px col-md	*/
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	.content
+	{
+		padding-left: 0px;
+	}
+}
+/*	>=768px col-md	*/
