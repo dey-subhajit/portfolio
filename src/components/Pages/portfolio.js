@@ -6,6 +6,7 @@ import PortfolioContent from './Portfolio/PortfolioContent';
 import Pagnitation from './pageNumber/pageNumber';
 
 import portfolio_img from '../../assets/siteimage/portfolio.jpg';
+import { Helmet } from 'react-helmet';
 
 class Portfolio extends Component {
 
@@ -90,6 +91,9 @@ class Portfolio extends Component {
       });
 		return (
 			<div id="portfolio" className="content">
+            <Helmet>
+               <title>My Sills | {process.env.REACT_APP_TITLE}</title>
+            </Helmet>
 				<div className="portfolio-content">
 					<div className="container">
 						<div className="portfolio_title">

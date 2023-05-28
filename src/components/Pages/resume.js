@@ -1,9 +1,13 @@
 import React from 'react';
 import '../../assets/css/resume.css';
 import '../../assets/css/resume_responsive.css';
+import { Helmet } from 'react-helmet';
 
 const Resume = () => (
    <div className="content">
+		<Helmet>
+			<title>My Experience | {process.env.REACT_APP_TITLE}</title>
+		</Helmet>
 		<div className="skill-content">
 			<div className="container">
 				<div className="skill_title">

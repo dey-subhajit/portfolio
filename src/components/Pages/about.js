@@ -2,12 +2,24 @@ import React, { Component } from 'react';
 import '../../assets/css/about.css';
 import '../../assets/css/about_responsive.css';
 import myImage from'../../assets/siteimage/subhajit_dey.jpg';
+import { Helmet } from 'react-helmet';
 
 
 class About extends Component {
+   
+   calculateAge () {
+      var myDob = new Date("05/01/1998");
+      var diffence = Date.now() - myDob.getTime();
+      var myAge = Math.abs(new Date(diffence).getUTCFullYear()-1970);
+      return myAge;
+   }
+
    render() {
       return (
          <div className="content">
+            <Helmet>
+               <title>About ME | {process.env.REACT_APP_TITLE}</title>
+            </Helmet>
             <div className="about-content">
                <div className="container">
                   <div className="about_title">
@@ -31,7 +43,7 @@ class About extends Component {
                               </li>
                               <li>
                                  <strong>Age</strong>
-                                 22 Years
+                                 {this.calculateAge()} Years
                               </li>
                               <li>
                                  <strong>Nationality</strong>

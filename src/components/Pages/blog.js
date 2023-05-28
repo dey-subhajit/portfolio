@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import BlogContent from './Blogs/blogcontent';
 import Pagnitation from './pageNumber/pageNumber';
+import { Helmet } from 'react-helmet';
 
 class Blog extends Component {
 
@@ -97,6 +98,9 @@ class Blog extends Component {
       });
       return (
          <div className="content">
+            <Helmet>
+               <title>My Blogs | {process.env.REACT_APP_TITLE}</title>
+            </Helmet>
 				<div className="my_blog-content">
 					<div className="container">
 						<div className="my_blog_title">

@@ -1,9 +1,13 @@
 import React from 'react';
 import '../../assets/css/contact.css';
 import '../../assets/css/contact_responsive.css';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => (
    <div className="content">
+		<Helmet>
+			<title>Contact With Me | {process.env.REACT_APP_TITLE}</title>
+		</Helmet>
 		<div className="contact-content">
 			<div className="container">
 				<div className="contact_title">
@@ -48,8 +52,8 @@ const Contact = () => (
 								</span>
 								<div className="contact_info_block_content">
 									<h6>Phone</h6>
-									<p>+91 8961613356</p>
-									<p>+91 9123046263</p>
+									<p>+91 9830407193</p>
+									{/* <p>+91 8961613356</p> */}
 								</div>
 							</div>
 							<div className="contact_info_block">
@@ -58,7 +62,8 @@ const Contact = () => (
 								</span>
 								<div className="contact_info_block_content">
 									<h6>Email</h6>
-									<p>dey.subhajit.1998@gmail.com</p>
+									<p>subhajitdey.5198@gmail.com</p>
+									{/* <p>dey.subhajit.1998@gmail.com</p> */}
 								</div>
 							</div>
 							<div className="contact_info_block">
